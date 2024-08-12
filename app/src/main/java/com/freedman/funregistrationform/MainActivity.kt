@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 edit_text_firstname.text.toString(),
                 edit_text_lastname.text.toString(),
                 edit_text_email.text.toString(),
-                edit_text_phone.text.toString().toInt(),
+                edit_text_phone.text.toString().toLong(),
                 edit_text_password.text.toString()
             )
 
